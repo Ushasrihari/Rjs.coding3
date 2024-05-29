@@ -2,13 +2,14 @@
 import './index.css'
 
 const ReusableBanner = props => {
-  const {BannerList} = props
-  const {headerText, description, className} = BannerList
+  const {BannerDetails, Key} = props
+
+  const {headerText, description, className} = BannerDetails
   return (
-    <li class={className}>
-      <h1 class="heading">{headerText}</h1>
-      <p class="paragraph">{description}</p>
-      <button class="button">Show more</button>
+    <li className={className}>
+      <h1 className="heading">{headerText}</h1>
+      <p className="paragraph">{description}</p>
+      <button className="button">Show more</button>
     </li>
   )
 }

@@ -15,6 +15,7 @@ body {
 .list-container {
   font-family: 'Roboto';
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
+  margin-top:20px;
 }
